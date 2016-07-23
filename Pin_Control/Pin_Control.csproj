@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{15CD7627-6BDE-4F4E-90E7-BEB375A2FFD5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pin_Control</RootNamespace>
+    <AssemblyName>Pin_Control</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>location-icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UHFReader18CSharp">
+      <HintPath>..\..\..\..\RFID Backup\SMTS\GCMS\bin\x86\Debug\UHFReader18CSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business Logic\clsAlertCheck.cs" />
+    <Compile Include="Business Logic\clsRFID_Reader.cs" />
+    <Compile Include="Business Logic\clsSoftwareLicense.cs" />
+    <Compile Include="Data Access\clsAlerts.cs" />
+    <Compile Include="Data Access\clsAssetRegister.cs" />
+    <Compile Include="Data Access\clsCategory.cs" />
+    <Compile Include="Data Access\clsCategoryType.cs" />
+    <Compile Include="Data Access\clsDevices.cs" />
+    <Compile Include="Data Access\clsLocations.cs" />
+    <Compile Include="Data Access\clsReaderEvents.cs" />
+    <Compile Include="Data Access\clsTrackEvents.cs" />
+    <Compile Include="Data Access\clsUnitOfMeasure.cs" />
+    <Compile Include="Data Access\clsUserEvents.cs" />
+    <Compile Include="Data Access\clsUserLocationAccess.cs" />
+    <Compile Include="Data Access\clsUsers.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNotificationPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNotificationPopup.Designer.cs">
+      <DependentUpon>frmNotificationPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PinDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PinDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User_Controls\uc_Alerts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\uc_Alerts.Designer.cs">
+      <DependentUpon>uc_Alerts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\uc_AssetRegister.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\uc_AssetRegister.Designer.cs">
+      <DependentUpon>uc_AssetRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\uc_Categories.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\uc_Categories.Designer.cs">
+      <DependentUpon>uc_Categories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\uc_Configuration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\uc_Configuration.Designer.cs">
+      <DependentUpon>uc_Configuration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\uc_DeviceManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\uc_DeviceManager.Designer.cs">
+      <DependentUpon>uc_DeviceManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\uc_Devices.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\uc_Devices.Designer.cs">
+      <DependentUpon>uc_Devices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\uc_EventManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\uc_EventManager.Designer.cs">
+      <DependentUpon>uc_EventManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\uc_Inventory_Register.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\uc_Inventory_Register.Designer.cs">
+      <DependentUpon>uc_Inventory_Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\uc_Locations.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\uc_Locations.Designer.cs">
+      <DependentUpon>uc_Locations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\uc_RegisterReader.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\uc_RegisterReader.Designer.cs">
+      <DependentUpon>uc_RegisterReader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\uc_Reports.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\uc_Reports.Designer.cs">
+      <DependentUpon>uc_Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\uc_Roles.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\uc_Roles.Designer.cs">
+      <DependentUpon>uc_Roles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\uc_Suppliers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\uc_Suppliers.Designer.cs">
+      <DependentUpon>uc_Suppliers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\uc_Type.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\uc_Type.Designer.cs">
+      <DependentUpon>uc_Type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\uc_UnitofMeasure.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\uc_UnitofMeasure.Designer.cs">
+      <DependentUpon>uc_UnitofMeasure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\uc_Users.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\uc_Users.Designer.cs">
+      <DependentUpon>uc_Users.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNotificationPopup.resx">
+      <DependentUpon>frmNotificationPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="User_Controls\uc_Alerts.resx">
+      <DependentUpon>uc_Alerts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\uc_AssetRegister.resx">
+      <DependentUpon>uc_AssetRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\uc_Categories.resx">
+      <DependentUpon>uc_Categories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\uc_Configuration.resx">
+      <DependentUpon>uc_Configuration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\uc_DeviceManager.resx">
+      <DependentUpon>uc_DeviceManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\uc_Devices.resx">
+      <DependentUpon>uc_Devices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\uc_EventManager.resx">
+      <DependentUpon>uc_EventManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\uc_Inventory_Register.resx">
+      <DependentUpon>uc_Inventory_Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\uc_Locations.resx">
+      <DependentUpon>uc_Locations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\uc_RegisterReader.resx">
+      <DependentUpon>uc_RegisterReader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\uc_Reports.resx">
+      <DependentUpon>uc_Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\uc_Roles.resx">
+      <DependentUpon>uc_Roles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\uc_Suppliers.resx">
+      <DependentUpon>uc_Suppliers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\uc_Type.resx">
+      <DependentUpon>uc_Type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\uc_UnitofMeasure.resx">
+      <DependentUpon>uc_UnitofMeasure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\uc_Users.resx">
+      <DependentUpon>uc_Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="PinDBDataSet.xsc">
+      <DependentUpon>PinDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PinDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PinDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PinDBDataSet.xss">
+      <DependentUpon>PinDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blank Icon - White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Connected Icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Online.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reading.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Ball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dark Blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Light Green.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dark Green.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Content Include="location-icon %282%29.ico" />
+    <Content Include="location-icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

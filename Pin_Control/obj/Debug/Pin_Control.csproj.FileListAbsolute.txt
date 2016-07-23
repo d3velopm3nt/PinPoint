@@ -1,0 +1,96 @@
+c:\users\klipsch\documents\visual studio 2012\Projects\Pin_Control\Pin_Control\bin\Debug\Pin_Control.exe.config
+c:\users\klipsch\documents\visual studio 2012\Projects\Pin_Control\Pin_Control\bin\Debug\Pin_Control.exe
+c:\users\klipsch\documents\visual studio 2012\Projects\Pin_Control\Pin_Control\bin\Debug\Pin_Control.pdb
+c:\users\klipsch\documents\visual studio 2012\Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.csprojResolveAssemblyReference.cache
+c:\users\klipsch\documents\visual studio 2012\Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.Properties.Resources.resources
+c:\users\klipsch\documents\visual studio 2012\Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Categories.resources
+c:\users\klipsch\documents\visual studio 2012\Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.csproj.GenerateResource.Cache
+c:\users\klipsch\documents\visual studio 2012\Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.exe
+c:\users\klipsch\documents\visual studio 2012\Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.pdb
+c:\users\klipsch\documents\visual studio 2012\Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Type.resources
+C:\Users\klipsch\documents\visual studio 2012\Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.frmPinPoint.resources
+C:\Users\klipsch\documents\visual studio 2012\Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Configuration.resources
+C:\Users\klipsch\documents\visual studio 2012\Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Locations.resources
+C:\Users\klipsch\documents\visual studio 2012\Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Roles.resources
+C:\Users\klipsch\documents\visual studio 2012\Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Users.resources
+C:\Users\klipsch\documents\visual studio 2012\Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_EventManager.resources
+C:\Users\klipsch\documents\visual studio 2012\Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Devices.resources
+\\JAYJAY-LAPTOP\Share\Software\Pin_Control\Pin_Control\bin\Debug\Pin_Control.exe.config
+\\JAYJAY-LAPTOP\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.exe
+\\JAYJAY-LAPTOP\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.pdb
+\\JAYJAY-LAPTOP\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.csprojResolveAssemblyReference.cache
+\\JAYJAY-LAPTOP\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.frmPinPoint.resources
+\\JAYJAY-LAPTOP\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.Properties.Resources.resources
+\\JAYJAY-LAPTOP\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Categories.resources
+\\JAYJAY-LAPTOP\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Configuration.resources
+\\JAYJAY-LAPTOP\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_DeviceManager.resources
+\\JAYJAY-LAPTOP\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Devices.resources
+\\JAYJAY-LAPTOP\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_EventManager.resources
+\\JAYJAY-LAPTOP\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Locations.resources
+\\JAYJAY-LAPTOP\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Roles.resources
+\\JAYJAY-LAPTOP\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Type.resources
+\\JAYJAY-LAPTOP\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Users.resources
+\\JAYJAY-LAPTOP\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.csproj.GenerateResource.Cache
+\\JAYJAY-LAPTOP\Share\Software\Pin_Control\Pin_Control\bin\Debug\Pin_Control.exe
+\\JAYJAY-LAPTOP\Share\Software\Pin_Control\Pin_Control\bin\Debug\Pin_Control.pdb
+\\JAYJAY-LAPTOP\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_RegisterReader.resources
+\\JAYJAY-LAPTOP\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_AssetRegister.resources
+\\JAYJAY-LAPTOP\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Alerts.resources
+\\JAYJAY-LAPTOP\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Reports.resources
+E:\Share\Software\Pin_Control\Pin_Control\bin\Debug\Pin_Control.exe.config
+E:\Share\Software\Pin_Control\Pin_Control\bin\Debug\Pin_Control.exe
+E:\Share\Software\Pin_Control\Pin_Control\bin\Debug\Pin_Control.pdb
+E:\Share\Software\Pin_Control\Pin_Control\bin\Debug\UHFReader18CSharp.dll
+E:\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.frmPinPoint.resources
+E:\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.Properties.Resources.resources
+E:\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Alerts.resources
+E:\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_AssetRegister.resources
+E:\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Categories.resources
+E:\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Configuration.resources
+E:\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_DeviceManager.resources
+E:\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Devices.resources
+E:\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_EventManager.resources
+E:\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Locations.resources
+E:\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_RegisterReader.resources
+E:\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Reports.resources
+E:\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Roles.resources
+E:\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Type.resources
+E:\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Users.resources
+E:\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.csproj.GenerateResource.Cache
+E:\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.exe
+E:\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.pdb
+E:\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.csprojResolveAssemblyReference.cache
+E:\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.frmNotificationPopup.resources
+E:\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Inventory_Register.resources
+E:\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_UnitofMeasure.resources
+E:\Share\Software\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Suppliers.resources
+E:\Development Projects\Bit Projects\Control Point\Pin_Control\Pin_Control\bin\Debug\Pin_Control.exe.config
+E:\Development Projects\Bit Projects\Control Point\Pin_Control\Pin_Control\obj\Debug\Pin_Control.exe
+E:\Development Projects\Bit Projects\Control Point\Pin_Control\Pin_Control\obj\Debug\Pin_Control.pdb
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\bin\Debug\Pin_Control.exe.config
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.exe
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.pdb
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\bin\Debug\Pin_Control.exe
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\bin\Debug\Pin_Control.pdb
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\bin\Debug\UHFReader18CSharp.dll
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.csprojResolveAssemblyReference.cache
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.frmPinPoint.resources
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.frmNotificationPopup.resources
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.Properties.Resources.resources
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Alerts.resources
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_AssetRegister.resources
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Categories.resources
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Configuration.resources
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_DeviceManager.resources
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Devices.resources
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_EventManager.resources
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Inventory_Register.resources
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Locations.resources
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_RegisterReader.resources
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Reports.resources
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Roles.resources
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Suppliers.resources
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Type.resources
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_UnitofMeasure.resources
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.User_Controls.uc_Users.resources
+E:\Development Projects\Bit Projects\Pin_Control\Pin_Control\obj\Debug\Pin_Control.csproj.GenerateResource.Cache

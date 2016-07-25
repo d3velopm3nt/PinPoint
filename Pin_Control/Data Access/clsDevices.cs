@@ -11,7 +11,7 @@ namespace Pin_Control.Data_Access
     {
         SqlCommand sqlcmd;
         string Conn = Properties.Settings.Default.PinDBConnectionString;
-        //stian commentss
+        //stian commentssd
         public DataView SelectAllWithLocation()
         {
             DataSet objv = new DataSet();

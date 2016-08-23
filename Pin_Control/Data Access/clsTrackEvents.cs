@@ -12,10 +12,7 @@ namespace Pin_Control.Data_Access
         SqlCommand sqlcmd;
         string Conn = Properties.Settings.Default.PinDBConnectionString;
 
-          
-
-
-
+        //This is a commmit 
 
         public DataView Search(int Asset_ID,int User_ID,string Dt_Start, string Dt_End)
         {
